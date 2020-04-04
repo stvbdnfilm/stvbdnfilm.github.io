@@ -5,8 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-  <title>Stephen | Write an awesome description for your new site here. You can edit this line in _config.yml. It will
-    appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+  <title>Stephen Baden | Filmmaker</title>
   <meta name="generator" content="Jekyll v3.8.5" />
   <meta property="og:title" content="Stephen" />
   <meta property="og:locale" content="en_US" />
@@ -25,32 +24,107 @@
 </head>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
   rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+
 <style>
   body {
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
   }
 
   h1 {
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 124px;
+    line-height: 1em;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .intro {
+    font-weight: regular;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .btn {
+    background-color: #0f46fa;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 12px 0px 20px;
+    border-radius: 999px;
+    height: 40px;
+    text-decoration: none;
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    /* transition: box-shadow .3s; */
+    transition: all .2s ease-in-out;
+    width:120px;
+    display: block;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+  }
+  .film>a>img{
+    transition: all .2s ease-in-out;
+  }
+  .film>a>img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
   }
 
   .container {
-    width: 900px;
-    margin: 0 auto;
+    /* width: 900px; */
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* min-height: 100vh; */
   }
 
   .title-text {
     padding-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
   }
 
   .films {
-    display: flex;
-    flex-wrap: wrap;
+    /* margin-top: 50px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* margin-left:100px; */
+  }
+
+  .films>h1 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
   }
 
   .film {
-    width: 100%
+    width: 400px;
+    margin:0 auto;
+  }
+
+  .film-caption {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 70%;
+  }
+
+  .accolades {
+    margin-top: 50px;
   }
 
   .row {
@@ -58,6 +132,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 20px;
   }
 
   .column {
@@ -66,44 +141,64 @@
     flex-basis: 100%;
     flex: 1;
   }
+  .center{
+    margin: 0 auto;
+  }
+  .section-heading{
+    font-size: 1em;
+    font-weight: 500;
+    opacity: 90%;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  .footer{
+    margin: 0 auto;
+    opacity: 50%;
+    font-size: .8em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  
 </style>
 
 <body>
   <div class="container">
-    <h1 class='title-text'>Stephen Baden</h1>
-    <p>Film and commercial director from Edmonton, AB.</p>
-    <div class="films">
+    <h1 class='title-text'>Hi there,</h1>
+    <p class='intro'>I'm <strong>Stephen Baden</strong>, a film and commercial director from Edmonton, AB.</p>
+    <a class='btn' href="mailto:skbaden@gmail.com">Get in touch</a>
 
+    <p class='section-heading center'>Selected Works</p>
+    <div class='films'>
       <div class='row'>
         <div class='column'>
           <div class=film>
             <a href="https://vimeo.com/327880099">
-              <img src="https://i.vimeocdn.com/video/772274739_1280x720.jpg" alt="" width="300"></a>
-            <p class='video-caption'>DIVE</p>
+              <img src="https://i.vimeocdn.com/video/772274739_1280x720.jpg" alt="" width="400"></a>
+            <p class='film-caption'>DIVE</p>
           </div>
         </div>
         <div class='column'>
           <div class=film>
             <a href="https://vimeo.com/326985568">
-              <img src="https://i.vimeocdn.com/video/771907451_1280x720.jpg" alt="" width="300"></a>
-            <p class='video-caption'>Tourism Jasper - Love Winter</p>
+              <img src="https://i.vimeocdn.com/video/771907451_1280x720.jpg" alt="" width="400"></a>
+            <p class='film-caption'>Tourism Jasper - Love Winter</p>
           </div>
         </div>
       </div>
-
       <div class="row">
         <div class='column'>
           <div class=film>
             <a href="https://vimeo.com/326985828">
-              <img src="https://i.vimeocdn.com/video/771906612_1280x720.jpg" alt="" width="300"></a>
-            <p class='video-caption'>Tourism Jasper - Saying Yes</p>
+              <img src="https://i.vimeocdn.com/video/771906612_1280x720.jpg" alt="" width="400"></a>
+            <p class='film-caption'>Tourism Jasper - Saying Yes</p>
           </div>
         </div>
         <div class="column">
           <div class=film>
             <a href="https://vimeo.com/326985532">
-              <img src="https://i.vimeocdn.com/video/771903863_1280x720.jpg" alt="" width="300"></a>
-            <p class='video-caption'>lululemon - Edmonton, We Love You</p>
+              <img src="https://i.vimeocdn.com/video/771903863_1280x720.jpg" alt="" width="400"></a>
+            <p class='film-caption'>lululemon - Edmonton, We Love You</p>
           </div>
         </div>
       </div>
@@ -112,28 +207,32 @@
         <div class="column">
           <div class=film>
             <a href="https://vimeo.com/326985495">
-              <img src="https://i.vimeocdn.com/video/771906216_1280x720.jpg" alt="" width="300"></a>
-            <p class='video-caption'>Tourism Jasper - Fred Frost</p>
+              <img src="https://i.vimeocdn.com/video/771906216_1280x720.jpg" alt="" width="400"></a>
+            <p class='film-caption'>Tourism Jasper - Fred Frost</p>
           </div>
         </div>
 
         <div class="column">
           <div class=film>
             <a href="https://vimeo.com/326985454">
-              <img src="https://i.vimeocdn.com/video/771905111_1280x720.jpg" alt="" width="300"></a>
-            <p class='video-caption'>The Winner Will - I Can</p>
+              <img src="https://i.vimeocdn.com/video/771905111_1280x720.jpg" alt="" width="400"></a>
+            <p class='film-caption'>The Winner Will - I Can</p>
           </div>
         </div>
       </div>
-
-
     </div>
 
+    <div class='accolades'>
+      <h2>Accolades</h2>
+      <P>Ace Award of Distinction | lululemon - Edmonton, We Love You</P>
+      <P>Ace Award of Distinction | Jasper, Canada - Love Winter</P>
+      <P>2018 Telus Storyhive Winner - Immersive Edition | DIVE</P>
+    </div>
 
-    <p>Accolades</p>
-    <P>Ace Award of Distinction | lululemon - Edmonton, We Love You</P>
-    <P>Ace Award of Distinction | Jasper, Canada - Love Winter</P>
-    <P>2018 Telus Storyhive Winner - Immersive Edition | DIVE</P>
+    <div class="footer">
+      <span>Copyright &copy; 2020 Stephen Baden</span>
+    </div>
+
   </div>
 </body>
 
