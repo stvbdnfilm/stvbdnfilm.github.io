@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
+  <title>Stephen Baden | Filmmaker</title>
+  <meta name="generator" content="Jekyll v3.8.5" />
+  <meta property="og:title" content="Stephen" />
+  <meta property="og:locale" content="en_US" />
+  <meta name="description"
+    content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+  <meta property="og:description"
+    content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+  <link rel="canonical" href="http://localhost:4000/" />
+  <meta property="og:url" content="http://localhost:4000/" />
+  <meta property="og:site_name" content="Stephen" />
+  <script type="application/ld+json">
+{"name":"Stephen","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","url":"http://localhost:4000/","headline":"Stephen","@context":"http://schema.org"}</script>
+  <!-- End Jekyll SEO tag -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Stephen" />
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+
+<style>
+  body {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 1em;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  h2 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .intro {
+    font-weight: regular;
+    font-size: 18px;
+    margin-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .btn {
+    background-color: #0f46fa;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 12px 0px 20px;
+    border-radius: 999px;
+    height: 40px;
+    text-decoration: none;
+    margin-top: 0.5em;
+    margin-bottom: 4em;
+    /* transition: box-shadow .3s; */
+    transition: all .2s ease-in-out;
+    width: 120px;
+    display: block;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+  }
+
+  .film>a>img {
+    transition: all .2s ease-in-out;
+  }
+
+  .film>a>img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+  }
+
+  .container {
+    /* width: 900px; */
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-left:10px;
+    padding-right:10px;
+    /* min-height: 100vh; */
+  }
+
+  .title-text {
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .films {
+    /* margin-top: 50px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* margin-left:100px; */
+  }
+
+  .films>h1 {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .film {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .film-caption {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 70%;
+  }
+
+  .accolades {
+    margin-top: 50px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+  .center {
+    margin: 0 auto;
+  }
+
+  .team-name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .team-role {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .section-heading {
+    font-size: 1em;
+    font-weight: 500;
+    opacity: 90%;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  .footer {
+    margin: 0 auto;
+    opacity: 50%;
+    font-size: .8em;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .selected-works-heading {
+    margin-bottom: 0px;
+    font-style: italic;
+    opacity: 0.6;
+  }
+
+  .selected-works {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+
+  .selected-works li p {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .selected-works li {
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    margin-left: 0px;
+    padding-bottom: 5px;
+  }
+
+  .page-subheading {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+  }
+
+  .work-title {
+    font-weight: 600;
+  }
+
+  .cbc {
+    margin-top: 10px;
+    display: inline;
+    float: left;
+    padding-right: 10px;
+  }
+  td {
+    max-width: 50px;
+    border: none;
+  }
+  table{
+    border-spacing: 0;
+  }
+  tr:nth-child(even) {background: #F0F0F0}
+  h2{
+    margin-bottom: 0;
+    text-decoration: underline;
+  }
+  h3{
+    margin-bottom: 5px;
+    font-weight:600;
+  }
+  h4{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight:500;
+  }
+  li{
+    font-size:14px;
+  }
+  ul{
+    margin-bottom: 5px;
+    margin-top: 0px;
+  }
+  hr{
+    border: 1px solid red;
+  }
+
+</style>
+
+<body>
+  <div class="container">
+    <div>
+      <img class="cbc" width="50" src="/assets/cbc-logo.png">
+      <h2 class='page-subheading'>CBC Creative Relief <span style="font-weight:300;">| Terms & Conditions</span></h2>
+      
+      <a style='float:right;' href="/development/"><strong>Development</strong></a>
+      <a style='float:right; margin-right:10px;' href="/team/">Team</a>
+    </div>
+
+    <h1 class='title-text'>Development</h1>
+    <p class='intro'>The development plan of the film is built from the ground up to adhere to Covid restrictions, and to be able to
+    continue production even if these restrictions do not loosen.</p>
+
+    <h2>Budget</h2>
+    <div class='row'>
+      <div class="column">
+      <h3>Above the line</h3>
+      <table>
+        <tr><td>Director:</td><td>$250</td></tr>
+        <tr><td>Writer:</td><td>$250</td></tr>
+        <tr><td>Producer:</td><td>$500</td></tr>
+        <tr><td>Cast:</td><td>$500</td></tr>
+      
+        <tr><td><h3>Below the line</h3></td></tr>
+        <tr><td>Cinematographer/Camera:</td><td>$2000</td></tr>
+        <tr><td>Editor:</td><td>$1000</td></tr>
+        <tr><td>Production Designer:</td><td>$250</td></tr>
+        <tr><td>Location sound:</td><td>$200</td></tr>
+        <tr><td>Sound Designer:</td><td>$500</td></tr>
+        <tr><td>Original Music:</td><td>$350</td></tr>
+        <tr><td>Contingency (10%):</td><td>$580</td></tr>
+        <!-- <tr><td><strong>Total:</strong></td><td><strong>$6100</strong></td></tr> -->
+      </table>
+      <br>
+      <table>
+        <tr><td><strong>Total:</strong></td><td><span style="font-size:22px; font-weight:bold;">$6,380</span><span style="font-weight:bold;">.00</span></td></tr>
+      </table>
+
+      </div>
+    </div>
+
+    <br>
+    <div class=row>
+      <div class=column>
+      <h2>Timeline</h2>
+      <p>The following is our project timeline based off a 12-week(3 month) production schedule.</p>
+      <h3>Month 1</h3>
+      <h4>Week 1:</h4>
+      <ul>
+        <li>Casting</li>
+        <li>Script development</li>
+        <li>Refine budget off secured financing</li>
+      </ul>
+      <h4>Week 2:</h4>
+      <ul>
+        <li>Script Development</li>
+        <li>Production scheduling</li>
+      </ul>
+      <h4>Week 3:</h4>
+      <ul>
+        <li>Finalize script</li>
+        <li>Finalize casting</li>
+      </ul>
+      <h4>Week 4:</h4>
+      <ul>
+        <li>Storyboards</li>
+        <li>Rehearsals start</li>
+      </ul>
+
+      <h3>Month 2</h3>
+      <h4>Week 5:</h4>
+      <ul>
+        <li>Shot list/shooting schedule</li>
+      </ul>
+      <h4>Week 6:</h4>
+      <ul>
+        <li>Principal photography</li>
+      </ul>
+      <h4>Week 7:</h4>
+      <ul>
+        <li>Assembly/Rough cut</li>
+      </ul>
+      <h4>Week 8:</h4>
+      <ul>
+        <li>First cut</li>
+        <li>Sound design starts</li>
+      </ul>
+
+      <h3>Month 3</h3>
+      <h4>Week 9:</h4>
+      <ul>
+        <li>Picture lock</li>
+        <li>Second cut</li>
+      </ul>
+      <h4>Week 10:</h4>
+      <ul>
+      <li>Titles + credits</li>
+      <li>Sound mix starts</li>
+      <li>Fine Cut</li>
+      </ul>
+      <h4>Week 11:</h4>
+      <ul>
+      <li>Final fixes/feedback implementation</li>
+      </ul>
+      <h4>Week 12:</h4>
+      <ul>
+      <li>Final Cut</li>
+      </ul>
+      </div>
+    </div>
+
+    <div class="footer">
+      <span>Copyright &copy; 2020 Stephen Baden</span>
+    </div>
+
+</body>
+
+</html>
